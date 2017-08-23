@@ -5,3 +5,9 @@ Multi-platform application that provides a 'universal account' for services such
 
 # unet-core
 [unet-core](https://github.com/acwilson96/unet/tree/master/unet-core)
+
+# unet_mobapp
+[unet_mobapp](https://github.com/acwilson96/unet/tree/master/unet_mobapp)
+
+# unet_webapp
+[unet_webapp](https://github.com/acwilson96/unet/tree/master/unet_webapp)
