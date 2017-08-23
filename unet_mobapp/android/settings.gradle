@@ -1,0 +1,3 @@
+rootProject.name = 'unet_mobapp'
+
+include ':app'
