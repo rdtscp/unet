@@ -32,9 +32,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  }
+  
 
   /***************************************************************************
   *                                                                          *
@@ -45,5 +43,20 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+
+  'post /unet/user/create': {
+    controller: 'UserController',
+    action: 'create'
+  },
+
+  'post /unet/user/destroy': {
+    controller: 'UserController',
+    action: 'destroy'
+  },
+
+  'post /unet/user/update': {
+    controller: 'UserController',
+    action: 'update'
+  },
 
 };
