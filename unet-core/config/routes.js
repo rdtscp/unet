@@ -44,6 +44,11 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  'post /unet/user/get': {
+    controller: 'UserController',
+    action: 'get'
+  },
+
   'post /unet/user/create': {
     controller: 'UserController',
     action: 'create'
