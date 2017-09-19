@@ -27,3 +27,5 @@ Instructions for use:
 
 # Images
 
+### Example of 2 Chat browser Windows seperated by the red border.
+![Split Screen Chat Example](https://github.com/acwilson96/unet/blob/master/unet_chat.png "Split Screen Chat Windows")
