@@ -12,13 +12,15 @@ Multi-platform application that provides a 'universal account' for services such
 
 ---
 
-# Installation/Usage
+# POC Release
+Instructions for use:
 
+* Install MongoDB
+* `mongod`
+* Get Sails:
+* `npm install -g sails`
+* New terminal:
+* `git clone https://github.com/acwilson96/unet.git`
+* `cd /unet`
+* `npm start`
 
-* clone `https://github.com/acwilson96/unet-core.git`
-* clone `https://github.com/acwilson96/unet_webapp.git`
-* In `unet_webapp` run `npm run build`.
-* Use the npm package `serve` to run the build folder using `serve -s build`
-* In `unet-core` configure `config/cors.js` and `config/csrf.js` to allow requests from the `address:port` combination that the `unet_webapp` is accessed from.
-* Have MongoDB running, and in `unet-core` configure `config/connections.js` with appropriate database info.
-* Use `sails lift` to start the API.
