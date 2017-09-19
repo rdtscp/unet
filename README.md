@@ -15,10 +15,9 @@ Multi-platform application that provides a 'universal account' for services such
 # POC Release
 Instructions for use:
 
-* Install MongoDB
-* `mongod`
-* Get Sails:
-* `npm install -g sails`
+* Set your hosts file to point `client.localhost` to `localhost` and `api.localhost` to `localhost`
+* Install MongoDB then: `mongod`
+* Get Sails: `npm install -g sails`
 * New terminal:
 * `git clone https://github.com/acwilson96/unet.git`
 * `cd /unet`
