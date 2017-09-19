@@ -1,0 +1,31 @@
+.bubble{
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    display: block;
+}
+.msg-left {
+    font-size: 13.6px;
+    max-width: 66%;
+    float: left;
+    clear:both;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.msg-right {
+    font-size: 13.6px;
+    max-width: 66%;
+    float: right;
+    clear:both;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+sub:hover{
+    color: white;
+}
+.time-stamp{
+    color: #4a4a4a;
+    font-family: Consolas,monospace;
+}

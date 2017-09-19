@@ -1,0 +1,11 @@
+.list-body {
+    position:absolute;
+    top:64px;
+    bottom:0;
+    left:0;
+    width:400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* testing */
+    border: 1px solid white;
+}

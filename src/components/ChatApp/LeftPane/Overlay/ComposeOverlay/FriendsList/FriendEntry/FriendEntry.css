@@ -1,0 +1,22 @@
+.friendEntry {
+  height: 64px;
+  width: 400px;
+  border-bottom: 1px solid white;
+}
+
+.friendAvatar {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  float: left;
+}
+
+.friendButs {
+  padding-right: 25px;
+  color: black;
+  float: right;
+}

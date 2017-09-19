@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+/* Scrollbars */
+
+.chat-input::-webkit-scrollbar {
+  width: 0.5em;
+}
+.chat-input::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.chat-input::-webkit-scrollbar-thumb {
+  background-color: #B3561F;
+  outline: 1px solid black;
+}
+.chat-body::-webkit-scrollbar {
+  width: 0.5em;
+}
+.chat-body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.chat-body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid black;
+}
+.list-body::-webkit-scrollbar {
+  width: 0em;
+}

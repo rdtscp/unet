@@ -1,0 +1,8 @@
+.left-pane {
+    width: 400px;
+    height: 100%;
+    float: left;
+    display: block;
+    /* For testing */
+    border: 1px solid white;
+}

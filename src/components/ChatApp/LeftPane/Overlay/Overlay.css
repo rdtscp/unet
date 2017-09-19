@@ -1,0 +1,9 @@
+.overlay {
+    position:relative;
+    z-index:1000;
+    display: block;
+    height: 100%;
+    width: 400px;
+    background-color:  #1b1b1c;
+    border-right: 1px solid white;
+}

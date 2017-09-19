@@ -1,0 +1,15 @@
+.header {
+    height: 68px;
+    display: block;
+}
+
+.headerTitle {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+    float: left;
+}

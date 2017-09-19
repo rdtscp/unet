@@ -1,0 +1,14 @@
+.settingsBut {
+    float: right;
+    height: 100%;
+    width: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.settingsBut:hover {
+    color: #B3561F;
+    cursor: pointer;
+}
