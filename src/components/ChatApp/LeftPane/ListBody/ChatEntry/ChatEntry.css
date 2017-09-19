@@ -1,0 +1,44 @@
+.chatEntry {
+    min-height: 64px;
+    min-width: 400px;
+    border-bottom: 1px solid white;
+}
+  
+.friendContent {
+    margin-left: 64px;
+    height: 64px;
+}
+  
+.contentTop {
+    padding-left: 5px;
+    width: 75%;
+}
+  
+.contentBot {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.chatTimestamp {
+    float: right;
+    padding-right: 25px;
+}
+  
+.chatAvatar {
+    height: 100%;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    float: left;
+}
+  
+.chatEntry:hover {
+    min-height: 64px;
+    min-width: 400px;
+    background-color: #0b0b0c;
+    cursor: pointer;
+}
+  

@@ -1,0 +1,13 @@
+.chatHeader {
+    height: 64px;
+    border-bottom: 1px solid white;
+}
+
+div {
+    color: white;
+}
+
+.chatName {
+    margin-left: 70px;
+    padding: 5px;
+}

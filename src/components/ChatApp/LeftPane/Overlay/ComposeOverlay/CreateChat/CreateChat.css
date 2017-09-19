@@ -1,0 +1,16 @@
+
+.createChatEntry {
+    height: 68px;
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+.createChat {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+}

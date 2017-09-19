@@ -1,0 +1,22 @@
+.app {
+    background-color:  #1b1b1c;
+    position: absolute;
+    top: 2%;
+    bottom: 2%;
+    left: 3%;
+    right: 3%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+@media all and (max-width: 1500px) {
+  .app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+}
