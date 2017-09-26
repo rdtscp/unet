@@ -64,17 +64,19 @@ export default class ChatApp extends Component {
             // Update chat objects
             var chat = this.state.currChat;
             // If the message is for this chat, append the bubble.
-            if (msg.chat == chat.id) {
-                if (chat.last_sender == null) {
-                    var temp_sender = { id: msg.sender, username: msg.username }
-                    chat.last_sender = temp_sender;
+            if (chat) {
+                if (msg.chat == chat.id) {
+                    if (chat.last_sender == null) {
+                        var temp_sender = { id: msg.sender, username: msg.username }
+                        chat.last_sender = temp_sender;
+                    }
+                    chat.last_sender.id = msg.sender;
+                    chat.last_active = msg.timestamp;
+                    chat.last_msg = msg.message;
+                    this.setState({
+                        chat: chat
+                    });
                 }
-                chat.last_sender.id = msg.sender;
-                chat.last_active = msg.timestamp;
-                chat.last_msg = msg.message;
-                this.setState({
-                    chat: chat
-                });
             }
             // Update the left pane.
             var chats = this.state.chats;
