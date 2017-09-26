@@ -61,6 +61,37 @@ export default class ChatApp extends Component {
                     });
                 }
             }
+            // Update chat objects
+            var chat = this.state.currChat;
+            // If the message is for this chat, append the bubble.
+            if (msg.chat == chat.id) {
+                if (chat.last_sender == null) {
+                    var temp_sender = { id: msg.sender, username: msg.username }
+                    chat.last_sender = temp_sender;
+                }
+                chat.last_sender.id = msg.sender;
+                chat.last_active = msg.timestamp;
+                chat.last_msg = msg.message;
+                this.setState({
+                    chat: chat
+                });
+            }
+            // Update the left pane.
+            var chats = this.state.chats;
+            console.log(msg)
+            for (var i=0; i < chats.length; i++) {
+                console.log(chats[i])
+                // console.log(msg)
+                if (chats[i].id == msg.chat) {
+                    chats[i].last_msg = msg.message;
+                    chats[i].last_active = msg.timestamp;
+                    chats[i].last_sender = msg.sender;
+                    chats[i].updatedAt = msg.updatedAt;
+                }
+            }
+            this.setState({
+                chats: chats
+            })
         });
     }
 

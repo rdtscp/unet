@@ -52,13 +52,13 @@ export default class FriendsList extends Component {
     }
 
     render() {
-
+        var friends = this.state.friendships;
+        friends = friends.sort(function(a,b) {return (a.friend.username > b.friend.username) ? 1 : ((b.friend.username > a.friend.username) ? -1 : 0);} );
         // Create a list of FriendEntrys.
-        const friendList = this.state.friendships.map((entry) =>
+        const friendList = friends.map((entry) =>
             // Create friend entry, pass data and remove method down.
             <FriendEntry remove={this.removeElem} data={entry} key={entry.id} />
         );
-
 
 
         return (
