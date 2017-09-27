@@ -19,6 +19,12 @@ export default class Message extends Component {
             message = this.props.message.username + ': ' + this.props.message.message
         }
 
+        var extra_styles = " ";
+        if (message.indexOf('./secret') > -1) {
+            message = message.replace('./secret', '');
+            extra_styles += colour + "-secret";
+        }
+
         message = message.split('&nbsp;').join(' ');
         message = message.split('&lt;').join('<');
         message = message.split('&gt;').join('>');
@@ -27,12 +33,11 @@ export default class Message extends Component {
             return <p key={ index }>{ text }</p>
         });
 
-
         return (
             <div className={"msg-" + colour} id={this.props.message.id}>
                 <div className="bubble">
                     <article className="media">
-                        <div className={"msg media-content " + colour} id={this.props.message.id}>
+                        <div className={"msg media-content " + colour + extra_styles} id={this.props.message.id}>
                             {message}
                         </div>
                         <div className="media-right">

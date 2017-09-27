@@ -22,10 +22,26 @@
     padding-bottom: 5px;
     padding-top: 5px;
 }
-sub:hover{
+sub:hover {
     color: white;
 }
-.time-stamp{
+.time-stamp {
     color: #4a4a4a;
     font-family: Consolas,monospace;
+}
+.left-secret {
+    color: transparent;
+    text-shadow: 0 0 5px #60519C;
+}
+.right-secret {
+    color: transparent;
+    text-shadow: 0 0 5px #B3561F;
+}
+.left-secret:hover {
+    color: #60519C;
+    text-shadow: 0 0 0;
+}
+.right-secret:hover {
+    color: #B3561F;
+    text-shadow: 0 0 0;
 }

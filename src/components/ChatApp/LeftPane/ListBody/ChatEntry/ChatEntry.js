@@ -100,6 +100,13 @@ export default class FriendEntry extends Component {
 
             // Shorten last_msg if necessary
             var message = this.state.chat.last_msg;
+
+            var extra_styles = " ";
+            if (message.indexOf('./secret') == 0) {
+                message = message.replace('./secret', '');
+                extra_styles += colour + "-secret";
+            }
+
             message = message.split("<br>").join(" ");
             message = message.split('&nbsp;').join(' ');
             message = message.split('&lt;').join('<');
@@ -131,7 +138,7 @@ export default class FriendEntry extends Component {
                         {chatName}
                     </div>
                     
-                    <div className={"contentBot " + colour}>
+                    <div className={"contentBot " + colour + extra_styles}>
                         {message}
                     </div>
                 </div>
