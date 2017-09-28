@@ -12,7 +12,13 @@ Multi-platform application that provides a 'universal account' for services such
 
 ---
 
-# POC Release
+# Beta Release (Web Usage)
+Available for use [here](https://acwilson96.github.io/unet_webapp/build/)
+As it is a beta release, data may be cleared at any point.
+
+---
+
+# POC Release (Local Usage)
 Instructions for use:
 
 * Set your hosts file to point `client.localhost` to `localhost` and `api.localhost` to `localhost`
