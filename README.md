@@ -12,7 +12,7 @@ Multi-platform application that provides a 'universal account' for services such
 
 ---
 
-# Beta Release (Web Usage)
+# 🆕 Beta Release (Web Usage)
 Available for use [here](https://acwilson96.github.io/unet_webapp/build/)
 As it is a beta release, data may be cleared at any point.
 
