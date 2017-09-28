@@ -4,18 +4,18 @@ Multi-platform application that provides a 'universal account' for services such
 # unet-core
 [unet-core](https://github.com/acwilson96/unet-core)
 
-# unet_mobile
-[unet_mobapp](https://github.com/acwilson96/unet_mobile)
-
 # unet_webapp
 [unet_webapp](https://github.com/acwilson96/unet_webapp)
+
+# unet_mobile
+[unet_mobapp](https://github.com/acwilson96/unet_mobile)
 
 ---
 
 # 🆕 Beta Release (Web Usage)
-Available for use [here](https://acwilson96.github.io/unet_webapp/build/)✅
+The latest build is available for use [here](https://acwilson96.github.io/unet_webapp/build/)✅
 
-As it is a beta release, data may be cleared at any point.
+As it is a beta release, data may be erased at any point.
 
 ---
 
